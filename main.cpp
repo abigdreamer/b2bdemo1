@@ -6,6 +6,6 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
     MainWindow w;
     w.show();
-    qWArning("Hellow world!");
+    qWarning("Hellow world!");
     return a.exec();
 }
